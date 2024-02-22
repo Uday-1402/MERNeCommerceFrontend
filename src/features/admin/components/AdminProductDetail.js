@@ -9,7 +9,6 @@ import {
 } from '../../product/productSlice';
 import { useParams } from 'react-router-dom';
 import { addToCartAsync, selectItems } from '../../cart/cartSlice';
-import { selectLoggedInUser } from '../../auth/authSlice';
 import { useAlert } from 'react-alert';
 import { Grid } from 'react-loader-spinner';
 
@@ -234,7 +233,7 @@ export default function AdminProductDetail() {
                         Size
                       </h3>
                       <a
-                        href="#"
+                        href="dummy.com"
                         className="text-sm font-medium text-indigo-600 hover:text-indigo-500"
                       >
                         Size guide

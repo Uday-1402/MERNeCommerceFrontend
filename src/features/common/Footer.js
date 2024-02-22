@@ -9,6 +9,7 @@ function Footer() {
             <div className="flex justify-center my-10">
               <div className="flex items-center border w-auto rounded-lg px-4 py-2 w-52 mx-2">
                 <img
+                  alt = "Image"
                   src="https://cdn-icons-png.flaticon.com/512/888/888857.png"
                   className="w-7 md:w-8"
                 />
@@ -19,6 +20,7 @@ function Footer() {
               </div>
               <div className="flex items-center border w-auto rounded-lg px-4 py-2 w-44 mx-2">
                 <img
+                  alt = "Image"
                   src="https://cdn-icons-png.flaticon.com/512/888/888841.png"
                   className="w-7 md:w-8"
                 />
